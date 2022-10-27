@@ -437,13 +437,17 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     .header-text{
         font-size: 16px;
-        margin-top: 60%;
+        margin-top: 100%;
         }
         .header-text h1{
             font-size: 20px;
         }
         .copyright{
             width: 100%;
+        }
+        .logo{
+            width: 100px;
+            margin-left: -30px;
         }
     nav .fa-solid{
         display: block;
@@ -484,13 +488,13 @@ nav .fa-solid{
         font-size: 14px;
     }
     .about-text{
-        width: 320px;
+        width: 310px;
         /* border: solid red; */
-        font-size: 14px;
+        font-size: 12px;
         text-transform: capitalize;
     }
     .tab-links{
-        font-size: 16px;
+        font-size: 12px;
         margin-right: 20px;
     }
     .contact-left, .contact-right{
@@ -503,7 +507,7 @@ nav .fa-solid{
         flex-basis: 100%  
     }
     .copyright{
-        font-size: 14px;
+        font-size: 12px;
     }
     .foo:hover{
         font-size: 17px;
