@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/76193bfd5f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!----------------------nav-bar---------------------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo animate-up">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">my Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <!--------------header------------->
+            </nav>
+            <div class="header-text">
+                <p class="animate-up">Website/Graphics Designer</p>
+                <h1 class="animate-left">Hi, I'm <span>Sylva</span><br>Promise From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about page----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1 animate-left">
+                    <img src="./images/sylva3.jpg" style="width: 300px ">
+
+                </div>
+                <div class="about-col-2 animate-right">
+                    <h1 class="sub-title">About Me</h1>*******************************************************************************
+                       <p class="about-text">
+                        hello! i'm sylva promise, i'm a nigerian, a graphics designer, website developer, 
+                        music producer, forex and financial market analyst.
+                        i'm simple and always ready to learn, and i play alot. i love hanging-out
+                        and this very important i love making friends, and i think i'm intresting to be with. check out my Portfolio i think you like me yeah...
+                       </p>
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Softwear Engenier</li>
+                            <li><span>sound</span> <br> Music Producer</li>
+                            <li><span>web development</span> <br> web app development</li>
+                            <li><span>analyst</span> <br> Forex Trader</li>
+                            <li><span>music</span> <br> Artist</li>
+                        </ul>
+                       </div>
+                       <!-----------------Expireince page-->
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span> <br> UI/UX Softwear Engenier at Future Lab</li>
+                            <li><span>2016 - current</span> <br> Music Producer at hypertec studio Lagos Nigeria</li>
+                            <li><span>2015 - current</span> <br> analyst at financial institution 
+                                (Forex Trader)</li>
+                            <li><span>2009 - current</span> <br> Music Artist</li>
+                        </ul>
+                       </div>
+                       <!----------------Education page--------------->
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span> <br>Frontend Certified Developer
+                            <li><span>2018</span> <br> Certified Director in Rudement Of Music at Music School Of Nigeria (MUSON)</li>
+                                <img src="./images/cert.jpg"></li>
+                                <li><span>2010</span> <br>Certificate Of Empirical Evidence Of Psychological Biases In Forex Trading at Technium Science</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------services-------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list ">
+                <div class="animate">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web Design is essential to bringing a website to life and creating the experience that you want for your end users. Our web design courses will help you polish your HTML and CSS skills while learning about color design, navigation design, and more.!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="animate">
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Music Production</h2>
+                    <p>Music is the art form that combines rhythm and sound to form a functional melodic line. Music itself transcends time, space, and cultures. Music can carry a mood without speaking any specific words. It can also be captured and recorded in a written universal language unique unto any other art form!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="animate">
+                    <i class="fa-solid fa-chart-simple "></i>
+                    <h2>Financial Market Analyst</h2>
+                    <p>A financial market is a market in which people trade financial securities and derivatives at low transaction costs. Some of the securities include stocks and bonds, raw materials and precious metals, which are known in the financial markets as commodities.!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------My Portfolio------------------->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Portfolio</h1>
+            <div class="protfolio-list">
+                <div class="portfolio-1">
+                    <div class="animate-left">
+                        <img src="./images/chart.jpg" style="width:100%">
+                        <div class="layer">
+                            <h3>Forex Chart Analysed</h3>
+                            <p>The Information you gather from a pro market analyst gives you edge in becoming sucessful in the finacial market</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-1">
+                    <div class="animate-up">
+                        <img src="./images/studio.jpg" style="width:100%" class="">
+                        <div class="layer">
+                            <h3>Music Production</h3>
+                            <p>creationg a nice and inspiring songs that brings happiness to the  mind of every individuals, Music is one thing that keeps me healthy and happy at all time
+                                <b class="my-quote"><em>"i love to be on the beat"</em></b> </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-1">
+                    <div class="animate-right">
+                        <img src="./images/code.jpg" style="width:100%" claas="">
+                        <div class="layer">
+                            <h3>Webiste Design</h3>
+                            <p>Building a world that connects everyone together in one language and beauty expression of images </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+     <!---------------------contact page------------------->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left animate">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sylvapromise5@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+2347030088454</p>
+                    <p><i class="fa-solid fa-phone"></i>+2348087378780</p>
+                    <div class="social-icons">
+                    <a href="https://web.facebook.com/settings?tab=account&section=username"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://t.me/DspikeHUNTER"><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="images/cert.jpg" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                     <form>
+                        <input class="text animate-right" name="Name" placeholder=" Enter your name" required>
+                        <input class="text animate-right" name="Email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your comment" class="animate-right"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made by the Futurist @easy Learning &#169 2022 All right Reserved </p>
+            <a href="https://sylvapromise5@gmail.com" class="foo"><i class="fa fa-envelope"></i>Email Us</a>
+        </div>
+     </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
