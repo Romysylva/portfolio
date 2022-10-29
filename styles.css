@@ -143,6 +143,10 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
+.tab-contents .m-cert{
+    float: left;
+    width: 100px;
+}
 
 /*-------------------about page----------*/
 #about{
@@ -175,6 +179,9 @@ nav ul li a:hover::after{
     font-size: 17px;
     text-transform: capitalize;
     /* word-spacing: 0.1rem; */
+}
+.pinp{
+    width: 450px;
 }
 .sub-title{
     font-size: 60px;
@@ -438,6 +445,14 @@ nav .fa-solid{
     .header-text{
         font-size: 16px;
         margin-top: 100%;
+        }
+        .intro{
+            margin-bottom: -15px;
+            font-size: 14px;
+        }
+        .pinp{
+            width: 300px;
+            font-size: 14px;
         }
         .header-text h1{
             font-size: 20px;
