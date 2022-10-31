@@ -439,6 +439,9 @@ nav .fa-solid{
     margin-right: 10px;
     margin-top: 30px;
 }
+.header-text .ido{
+    color: #fff;
+}
   
 /*----------------css for small screen---------------*/
 @media only screen and (max-width: 600px){
@@ -448,7 +451,7 @@ nav .fa-solid{
         }
         .intro{
             margin-bottom: -15px;
-            font-size: 14px;
+            font-size: 12px;
         }
         .pinp{
             width: 300px;
@@ -456,6 +459,10 @@ nav .fa-solid{
         }
         .header-text h1{
             font-size: 20px;
+        }
+        .ido{
+            font-size: 15px;
+            color: #fff;
         }
         .copyright{
             width: 100%;
